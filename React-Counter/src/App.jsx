@@ -7,7 +7,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   const increaseVal = () => {
-    setCount(count + 1)
+    if (count === 20) {
+      setCount(20)
+      alert("Counter increase limit of 20")
+    } else {
+      setCount(count + 1)
+    }
   }
 
   const decreaseVal = () => {
