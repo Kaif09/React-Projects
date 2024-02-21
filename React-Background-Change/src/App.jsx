@@ -16,7 +16,7 @@ function App() {
         style={{ backgroundColor: bgColor }}
       >
         <h1 className=" font-bold text-8xl" style={{ color: textColor }}>
-          Hello This Is Kaif
+          Hello This Is Kaif!
         </h1>
         <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
           <div className="flex flex-wrap justify-center gap-3 shadow-xl bg-white px-3 py-2 rounded-2xl">
